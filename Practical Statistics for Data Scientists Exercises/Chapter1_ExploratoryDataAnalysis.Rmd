@@ -1,0 +1,40 @@
+---
+title: "Practical Statistics for Data Scientists (R) | Chapter 1. Exploratory Data Analysis"
+output: html_notebook
+---
+
+> (c) 2019 Peter C. Bruce, Andrew Bruce, Peter Gedeck
+
+I've started reading this book and am working on exercises for the book.
+
+Start by importing several libraries.
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+```{r}
+install.packages("dplyr")
+```
+```{r}
+install.packages("tidyr")
+install.packages("ggplot2")
+install.packages("vioplot")
+install.packages("corrplot")
+install.packages("gmodels")
+install.packages("matrixStats")
+
+```
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(vioplot)
+library(corrplot)
+library(gmodels)
+library(matrixStats)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
